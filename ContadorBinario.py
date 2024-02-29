@@ -132,6 +132,60 @@ try: #Inicio del try
             GPIO.output(LEDE, GPIO.LOW) # Apaga el pin
             GPIO.output(LEDF, GPIO.HIGH) # Enciende el pin
             GPIO.output(LEDG, GPIO.HIGH) # Enciende el pin
+        elif numeroDecimal == 10:
+            #Número 9
+            GPIO.output(LEDA, GPIO.HIGH) # Enciende el pin
+            GPIO.output(LEDB, GPIO.HIGH) # Enciende el pin
+            GPIO.output(LEDC, GPIO.HIGH) # Enciende el pin
+            GPIO.output(LEDD, GPIO.LOW) # Apaga el pin
+            GPIO.output(LEDE, GPIO.HIGH) # Apaga el pin
+            GPIO.output(LEDF, GPIO.HIGH) # Enciende el pin
+            GPIO.output(LEDG, GPIO.HIGH) # Enciende el pin
+        elif numeroDecimal == 11:
+            #Número 9
+            GPIO.output(LEDA, GPIO.HIGH) # Enciende el pin
+            GPIO.output(LEDB, GPIO.HIGH) # Enciende el pin
+            GPIO.output(LEDC, GPIO.HIGH) # Enciende el pin
+            GPIO.output(LEDD, GPIO.HIGH) # Apaga el pin
+            GPIO.output(LEDE, GPIO.HIGH) # Apaga el pin
+            GPIO.output(LEDF, GPIO.HIGH) # Enciende el pin
+            GPIO.output(LEDG, GPIO.HIGH) # Enciende el pin
+        elif numeroDecimal == 12:
+            #Número 9
+            GPIO.output(LEDA, GPIO.HIGH) # Enciende el pin
+            GPIO.output(LEDB, GPIO.LOW) # Enciende el pin
+            GPIO.output(LEDC, GPIO.LOW) # Enciende el pin
+            GPIO.output(LEDD, GPIO.HIGH) # Apaga el pin
+            GPIO.output(LEDE, GPIO.HIGH) # Apaga el pin
+            GPIO.output(LEDF, GPIO.HIGH) # Enciende el pin
+            GPIO.output(LEDG, GPIO.LOW) # Enciende el pin
+        elif numeroDecimal == 13:
+            #Número 9
+            GPIO.output(LEDA, GPIO.LOW) # Enciende el pin
+            GPIO.output(LEDB, GPIO.HIGH) # Enciende el pin
+            GPIO.output(LEDC, GPIO.HIGH) # Enciende el pin
+            GPIO.output(LEDD, GPIO.HIGH) # Apaga el pin
+            GPIO.output(LEDE, GPIO.HIGH) # Apaga el pin
+            GPIO.output(LEDF, GPIO.LOW) # Enciende el pin
+            GPIO.output(LEDG, GPIO.HIGH) # Enciende el pin
+        elif numeroDecimal == 14:
+            #Número 9
+            GPIO.output(LEDA, GPIO.HIGH) # Enciende el pin
+            GPIO.output(LEDB, GPIO.LOW) # Enciende el pin
+            GPIO.output(LEDC, GPIO.LOW) # Enciende el pin
+            GPIO.output(LEDD, GPIO.HIGH) # Apaga el pin
+            GPIO.output(LEDE, GPIO.HIGH) # Apaga el pin
+            GPIO.output(LEDF, GPIO.HIGH) # Enciende el pin
+            GPIO.output(LEDG, GPIO.HIGH) # Enciende el pin
+        elif numeroDecimal == 15:
+            #Número 9
+            GPIO.output(LEDA, GPIO.HIGH) # Enciende el pin
+            GPIO.output(LEDB, GPIO.LOW) # Enciende el pin
+            GPIO.output(LEDC, GPIO.LOW) # Enciende el pin
+            GPIO.output(LEDD, GPIO.LOW) # Apaga el pin
+            GPIO.output(LEDE, GPIO.HIGH) # Apaga el pin
+            GPIO.output(LEDF, GPIO.HIGH) # Enciende el pin
+            GPIO.output(LEDG, GPIO.HIGH) # Enciende el pin
         else:
             #En caso de que no esté entre el 0 y el 9 imprime cero dado que está fuera de rango
             GPIO.output(LEDA, GPIO.HIGH) # Enciende el pin
